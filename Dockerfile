@@ -1,4 +1,5 @@
 FROM alpine:3.9
+LABEL MAINTAINER furkan.sayim@yandex.com
 
 RUN apk add --no-cache python3 && \
     python3 -m ensurepip && \

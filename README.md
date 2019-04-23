@@ -17,8 +17,6 @@ Brute forcing tool for FTP server. FTPBruter can work in any OS if they have and
  $ docker run --rm -it -v '$(pwd):/tmp/' xshuden/ftpbruter
  ```
 
-
-
 # Install and Run on Linux
 You have to install Python 3 first:
  * Install Python 3 on Arch Linux and its distros: <code>sudo pacman -S python3</code>
