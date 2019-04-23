@@ -3,7 +3,22 @@ Brute forcing tool for FTP server. FTPBruter can work in any OS if they have and
 
 # Feature
  * Brute force a FTP server with a username or a list of usernames (That's all).
- 
+
+# Docker Build
+
+ ```
+ $ docker build -t xshuden/ftpbruter .
+ ```
+
+# Docker Usage
+
+ ```
+ $ docker run --rm -it xshuden/ftpbruter
+ $ docker run --rm -it -v '$(pwd):/tmp/' xshuden/ftpbruter
+ ```
+
+
+
 # Install and Run on Linux
 You have to install Python 3 first:
  * Install Python 3 on Arch Linux and its distros: <code>sudo pacman -S python3</code>
@@ -12,7 +27,7 @@ You have to install Python 3 first:
        git clone https://github.com/GitHackTools/FTPBruter
        cd FTPBruter
        python3 ftpbruter.py
-       
+
 # Install and Run on Windows
 Download and run Python 3.7.x setup file from <a href="https://python.org" target="_blank"><span style="color: blue">Python.org</span></a>.
 On <strong>Install Python 3.7</strong>, enable <strong>Add Python 3.7 to PATH</strong>.
